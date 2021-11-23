@@ -33,10 +33,23 @@ body{
 
 #cuerpo{
     text-align: center;
-    position:relative;
+    position:absolute;
     margin: 5px;
     margin-left: 100px;
     margin-right: 100px;
-    border: 3px solid #8a6d3b;
+    border: 2px solid #8a6d3b;
     background-color: #ffe8bc;
 }
+#relativo{
+    position: relative;
+    width: 400px;
+    height: 200px;
+    border: 3px solid #73AD21;
+}
+
+#estatico{
+    /*tipo de posicion estática*/
+    position: static;
+    border: 2px solid #8a6d3b;
+}
+
