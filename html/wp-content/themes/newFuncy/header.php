@@ -1,4 +1,7 @@
 
+<link rel="stylesheet" href="<?php echo get_stylesheet_uri()?>">
 <div id="cabecera">
-    <h1>Cabecera Funcy Pro</h1>
+    <h3>Sentimolo, Juan non está disponible nestos momentos :(</h3>
+
 </div>
+<?php

@@ -12,10 +12,31 @@ Text Domain: twentythirteen
 This theme, like WordPress, is licensed under the GPL.
 Use it to make something cool, have fun, and share what you've learned with others.
 */
+
 body{
-    background: #0a4b78;
+    background-color: #998d7a;
 }
 
 .rojo {
-    background-color: red;
+    background-color: #998d7a;
+}
+#cabecera{
+
+    text-align: center;
+    /*Facemos que quede anclado arriba*/
+    background-color: #ffe8bc;
+    position: sticky;
+    top: 0;
+    background-color: #ffe8bc;
+    border: 2px solid #8a6d3b;
+}
+
+#cuerpo{
+    text-align: center;
+    position:relative;
+    margin: 5px;
+    margin-left: 100px;
+    margin-right: 100px;
+    border: 3px solid #8a6d3b;
+    background-color: #ffe8bc;
 }

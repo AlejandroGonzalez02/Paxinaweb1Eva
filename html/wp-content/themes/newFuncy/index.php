@@ -22,4 +22,4 @@ include("header.php");
 </body>
 </html>
 
-<?php get_footer()?>
+<?php get_footer();?>
