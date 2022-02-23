@@ -25,8 +25,33 @@
             <h3 id="Subtitulos">A estatua de Juan</h3>
             <p id="parrafos">Unha estatua do noso queridisimo juan, considerado un deus en moitos lugares do mundo.</p>
         </div>
+        <h1>Posts do index</h1>
 
+        <?php
+        get_header();
+        if (have_posts()) :
+            while (have_posts()) :
+                ?>
+                <div>
+                    <?php
+                    the_post(); ?>
+                    <div><?php the_post_thumbnail(); ?></div>
+                    <div><br>
+                        <a href="<?php the_permalink() ?>"><?php the_title(); ?></a>
+                        <?php the_excerpt(); ?>
+                        <br>
+                    </div>
+                </div>
+                <br>
+                <br>
+                <br>
+            <?php
+
+            endwhile;
+        endif;
+        ?>
         <?php get_footer();?>
     </body>
+    <?php get_footer();?>
 </html>
 
